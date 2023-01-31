@@ -1,0 +1,85 @@
+body {
+  min-height: 100vh;
+  font-family: "Red Hat Display", sans-serif;
+  background-image: url("./img/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: hsl(225, 100%, 94%);
+}
+
+.container {
+  width: 450px;
+  background-color: #ffffff;
+  margin: auto;
+  border-radius: 20px;
+  height: 660px;
+  box-shadow: 0px 40px 40px -20px rgba(4, 11, 39, 0.152);
+}
+
+.image1 {
+  border-radius: 20px 20px 0 0;
+}
+
+h1 {
+  font-size: 28px;
+  margin-left: 115px;
+  font-weight: 900;
+  color: #1f2e55;
+}
+
+.paragraph {
+  color: #717fa6;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  width: 354px;
+  margin-left: 48px;
+}
+
+.for-plan {
+  display: flex;
+  align-items: center;
+  margin-left: 75px;
+  gap: 15px;
+  width: 354px;
+  padding: 10px;
+  background-color: #f7f9ff;
+  margin-left: 40px;
+  border-radius: 11px;
+}
+
+h6 {
+  margin-left: 80px;
+  color: #382ae1;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.payment {
+  display: flex;
+  align-items: center;
+  margin-left: 40px;
+  width: 354px;
+  padding: 10px;
+  background-color: #382ae1;
+  border-radius: 11px;
+  margin-top: 30px;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.1903);
+}
+
+h3 {
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 900;
+  margin: auto;
+}
+
+a {
+  color: #717fa6;
+  width: 96px;
+  margin-left: 182px;
+  font-size: 15px;
+  font-weight: 900;
+  display: inline-block;
+  margin-top: 40px;
+}
